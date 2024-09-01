@@ -28,7 +28,7 @@ console.log('hello holly');
         'Octyl Palmitate', 
         'Palmityl Alcohol', 
         'Laureth-7, Steareth-2', 
-        'Cocamide MEA (fatty acid-derived)' 
+        'Cocamide MEA (fatty acid-derived)',
         'Cocamiede DEA (fatty acid derived)', 'Stearamidopropyldimethylamine', 
         'Cetyltrimethylammonium chloride', 
         'Isopropylmyristate', 
@@ -39,6 +39,6 @@ console.log('hello holly');
         'ever'
     ];
     const content = window.document.body.innerText;
-    const check =  content.search('publishing') != '-1';
+    const check =  content.match('publishing');
     console.log('content', content , 'check' , check);
 }
