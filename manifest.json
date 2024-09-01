@@ -1,0 +1,11 @@
+{
+    "name": "Baby Orangutan Palm Oil Checker",
+    "version": "1.0.0",
+    "description": "Check to see if a product contains palm oil whilst online shopping",
+    "manifest_version": 1,
+    "author": "Holly Williams",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Palm Oil Checker"
+    }
+}
