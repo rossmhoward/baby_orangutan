@@ -7,5 +7,8 @@
         'Palm oils',
         'ever'
     ];
-    console.log(`here is an array of terms for you to start searching for: [${terms}].`);
+    const check = 
+    window.document.documentElement.innerText.search('publishing') != '-1';
+    console.log(`here is an array of terms for you to start searching for: ${check}, [${terms}].`);
+    console.log(window,window.document, window.document.documentElement);
 })();
