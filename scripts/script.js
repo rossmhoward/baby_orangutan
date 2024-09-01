@@ -36,9 +36,20 @@ console.log('hello holly');
         'Fatty Isethionates (SCI)',  
         'Alkylpolyglycoside (APG)', 
         'Laurylamine oxide',
-        'ever'
+        'ever',
+        'info',
+        'Palm oil'
     ];
     const content = window.document.body.innerText;
-    const check =  content.match('publishing');
+        // Expected output: Defines which content to search aka InnerText of window, document, body
+    const check =  content.match('ever');
+    // Expected output: ? 
+    terms.forEach ((term) => 
+        console.log(term, content.match(term)),);
+    // Expected output: Print out a match and which term
+
+    // Expected output: For each term found it will console log everything that happened before
     console.log('content', content , 'check' , check);
 }
+
+
